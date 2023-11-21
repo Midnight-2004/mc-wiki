@@ -1,6 +1,27 @@
 # MC-Wiki
 一款可以查询mcwiki的Yunzai-bot插件
 
+### 介绍
+
+一款可以用来查询mcwiki的Yunzai-bot插件，适配Yunzai V3
+
+### 安装教程
+
+下载此插件，并把它放入./plugins/example目录下
+
+### 提示
+
+本仓库插件已更新wiki地址为[中文MC Wiki新站(https://zh.minecraft.wiki)](https://zh.minecraft.wiki/)
+
+国内两个镜像站(Bwiki和Netease)已关闭，Fandom上的Minecraft Wiki 也已经弃用，请大家使用新站。
+
+# 以下为插件原readme
+
+-----
+
+# MC-Wiki
+一款可以查询mcwiki的Yunzai-bot插件
+
 #### 介绍
 
 一款可以用来查询mcwiki的Yunzai-bot插件，适配Yunzai V3
