@@ -6,7 +6,7 @@ import common from "../../lib/common/common.js";
 export class QueryHandler extends plugin {
     constructor(query) {
         let rule = {
-            reg: /^#wiki(.*)/,
+            reg: /^#mcwiki(.*)/,
             fnc: 'handleWikiQuery',
         }
         super({
@@ -19,9 +19,9 @@ export class QueryHandler extends plugin {
     }
 
     async handleWikiQuery(query) {
-        let querywithoutwiki = (query + "").replace('#wiki', '')
+        let querywithoutwiki = (query + "").replace('#mcwiki', '')
         let encodeQuery = encodeURI(querywithoutwiki)
-        let url = `https://wiki.biligame.com/mc/${encodeQuery}`
+        let url = `https://zh.minecraft.wiki/w/${encodeQuery}`
         //await this.reply(url)
         const browser = await puppeteer.browserInit()
         const page = await browser.newPage()
